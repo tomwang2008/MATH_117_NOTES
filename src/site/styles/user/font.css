@@ -45,7 +45,3 @@ a:hover {
     display: none !important;
 }
 
-/* 3. 将 Callout 标题变成您本地的那种紫蓝色 */
-.callout-title, .callout-title-inner {
-    color: #7c3aed !important; /* 经典的紫蓝色，您可以根据喜好替换颜色代码 */
-}
