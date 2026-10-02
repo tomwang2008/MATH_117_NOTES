@@ -25,7 +25,8 @@ Since every [[Math/Linear Algebra Done Right/Subspace\|subspace]] of a finite-di
 The next result gives us the formula to calculate the dimension of the [[Math/Linear Algebra Done Right/Sum of Subspace\|sum of subspace]]. 
 
 >[!info] Dimension of a sum
->If $U_1,U_2$ are two subspaces of the vector space, then $$\dim(U_1+U_2)=\dim U_1+\dim U_2-\dim(U_1\cap U_2)$$
+>If $U_1,U_2$ are two subspaces of the vector space, then 
+>$$\dim(U_1+U_2)=\dim U_1+\dim U_2-\dim(U_1\cap U_2)$$
 >
 >Proof:
 >
