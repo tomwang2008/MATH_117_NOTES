@@ -15,16 +15,23 @@ h1, h2, h3, h4, h5, h6, .dg-header {
     font-family: 'Spectral', serif !important;
 }
 
-/* 保持深色背景，只把过暗的字体调亮 */
-:root {
-    /* 1. 把最暗的辅助文字（如说明文字、未选中的目录）调成明亮的浅灰色 */
-    --text-muted: #94a3b8 !important; 
-    --text-faint: #cbd5e1 !important; 
-    
-    /* 2. 专门把左侧目录栏的文字调亮 */
-    --nav-item-color: #cbd5e1 !important; 
-    --nav-item-color-hover: #ffffff !important; 
-    
-    /* 3. 确保正文和普通标题也是清晰的亮白色 */
-    --text-normal: #f8fafc !important; 
+/* 1. 强制点亮右侧的常规文本（如 "1 note in this garden"） */
+body, p, span, .dg-fallback-index-intro {
+    color: #cbd5e1 !important; 
+}
+
+/* 2. 强制点亮左侧目录里未选中的文件夹和笔记链接 */
+a, 
+.nav-folder-title,
+.nav-file-title,
+.tree-item-inner {
+    color: #cbd5e1 !important;
+}
+
+/* 3. 保证当前正在阅读的笔记标题和主标题是最亮的纯白，以示区分 */
+h1, h2, h3,
+.is-active,
+.nav-file-title.is-active,
+a:hover {
+    color: #ffffff !important;
 }
