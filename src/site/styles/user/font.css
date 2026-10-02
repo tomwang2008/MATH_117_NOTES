@@ -15,14 +15,16 @@ h1, h2, h3, h4, h5, h6, .dg-header {
     font-family: 'Spectral', serif !important;
 }
 
-/* 强制覆盖默认的纯黑背景，改为稍微明亮护眼的深灰色 */
+/* 保持深色背景，只把过暗的字体调亮 */
 :root {
-    --background-primary: #282c34 !important;   /* 右侧笔记主内容的背景色 */
-    --background-secondary: #21252b !important; /* 左侧目录边栏的背景色 */
+    /* 1. 把最暗的辅助文字（如说明文字、未选中的目录）调成明亮的浅灰色 */
+    --text-muted: #94a3b8 !important; 
+    --text-faint: #cbd5e1 !important; 
     
-    /* 顺便把正文字体的颜色调白一点，让对比度更高、更清晰 */
-    --text-normal: #e0e6ed !important; 
+    /* 2. 专门把左侧目录栏的文字调亮 */
+    --nav-item-color: #cbd5e1 !important; 
+    --nav-item-color-hover: #ffffff !important; 
     
-    /* 将 Definition 等高亮框（Callout）的底色调浅一点点 */
-    --background-modifier-form-field: #323842 !important;
+    /* 3. 确保正文和普通标题也是清晰的亮白色 */
+    --text-normal: #f8fafc !important; 
 }
