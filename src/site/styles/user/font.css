@@ -1,0 +1,16 @@
+/* 从 Google Fonts 云端引入 Spectral 字体（包含常规体、粗体和斜体） */
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* 强制替换数字花园的全局正文字体为 Spectral */
+:root {
+    --base-font: 'Spectral', serif !important;
+}
+
+body, .dg-content, p, li, span {
+    font-family: 'Spectral', serif !important;
+}
+
+/* 让各级标题也统一使用 Spectral 字体 */
+h1, h2, h3, h4, h5, h6, .dg-header {
+    font-family: 'Spectral', serif !important;
+}
