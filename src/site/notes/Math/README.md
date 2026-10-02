@@ -6,4 +6,4 @@
 
 Welcome.
 
-Use the sidebar to browse all notes, or press `Ctrl + K` (`Cmd + K` on Mac) to search.
+Use the sidebar to browse all notes, or press **Ctrl + K** (**Cmd + K** on Mac) to search.
