@@ -28,7 +28,7 @@
 
 The defintion of inner product is shown above, but we still don't know the exact function of inner product. Some common definitions are shown below.
 
-(a) The **Euclidean inner product** on [[Math/Linear Algebra Done Right/Fⁿ\|Fⁿ]] is defined by
+(a) The **Euclidean inner product** on [[Math/Linear Algebra Done Right/Dimensional Spaces\|Dimensional Spaces]] is defined by
 $$
 \langle (w_{1},\dots,w_{n}),(u_{1},\dots u_{n}) \rangle=w_{1}\overline{u_{1}}+\dots+w_{n}\overline{u_{n}}
 $$

@@ -38,7 +38,7 @@ Before we dive into the definition of Vector Space, we need to know what is addi
 
 ## **Examples for Vector Space**
 
-Sets like [[Math/Linear Algebra Done Right/Fⁿ\|Fⁿ]] and [[Math/Linear Algebra Done Right/Fˢ\|Fˢ]] are all vector space. Now we are introducing properties of vector space.
+Sets like [[Math/Linear Algebra Done Right/Dimensional Spaces\|Dimensional Spaces]] and [[Math/Linear Algebra Done Right/Fˢ\|Fˢ]] are all vector space. Now we are introducing properties of vector space.
 
 ## Properties of Vector Space
 

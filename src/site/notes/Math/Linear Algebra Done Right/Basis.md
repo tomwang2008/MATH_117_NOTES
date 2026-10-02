@@ -17,7 +17,7 @@ This allows us to see why basis is so important. For every vector in the vector 
 
 Now let's see some examples:
 
-- The list $(1,0,\dots,0),(0,1,\dots,0),\dots,(0,\dots,0,1)$ is called a **standard basis** of [[Math/Linear Algebra Done Right/Fⁿ\|Fⁿ]].
+- The list $(1,0,\dots,0),(0,1,\dots,0),\dots,(0,\dots,0,1)$ is called a **standard basis** of [[Math/Linear Algebra Done Right/Dimensional Spaces\|Dimensional Spaces]].
 - The list $1,z,\dots,z^n$, is a basis of [[Math/Linear Algebra Done Right/P(F)\|$\mathcal P_n(\mathbf F)$]].
 
 The following statement tells us how to find a basis.
