@@ -14,3 +14,15 @@ body, .dg-content, p, li, span {
 h1, h2, h3, h4, h5, h6, .dg-header {
     font-family: 'Spectral', serif !important;
 }
+
+/* 强制覆盖默认的纯黑背景，改为稍微明亮护眼的深灰色 */
+:root {
+    --background-primary: #282c34 !important;   /* 右侧笔记主内容的背景色 */
+    --background-secondary: #21252b !important; /* 左侧目录边栏的背景色 */
+    
+    /* 顺便把正文字体的颜色调白一点，让对比度更高、更清晰 */
+    --text-normal: #e0e6ed !important; 
+    
+    /* 将 Definition 等高亮框（Callout）的底色调浅一点点 */
+    --background-modifier-form-field: #323842 !important;
+}
