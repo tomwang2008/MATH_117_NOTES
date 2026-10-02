@@ -28,3 +28,24 @@ h1, h2, h3,
 a:hover {
     color: #88c0d0 !important; /* 经典的护眼青蓝色 */
 }
+
+/* =========================================
+   Callout (高亮框) 专属样式调整
+========================================= */
+
+/* 1. 去除背景填充颜色，并保留一层极淡的边框以区分层级 */
+.callout {
+    background: transparent !important;
+    background-color: transparent !important;
+    border: 1px solid rgba(168, 190, 197, 0.2) !important; 
+}
+
+/* 2. 彻底隐藏左侧的小图标 */
+.callout-icon {
+    display: none !important;
+}
+
+/* 3. 将 Callout 标题变成您本地的那种紫蓝色 */
+.callout-title, .callout-title-inner {
+    color: #7c3aed !important; /* 经典的紫蓝色，您可以根据喜好替换颜色代码 */
+}
