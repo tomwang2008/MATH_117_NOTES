@@ -15,23 +15,16 @@ h1, h2, h3, h4, h5, h6, .dg-header {
     font-family: 'Spectral', serif !important;
 }
 
-/* 1. 强制点亮右侧的常规文本（如 "1 note in this garden"） */
-body, p, span, .dg-fallback-index-intro {
-    color: #cbd5e1 !important; 
+/* 1. 常规正文和未选中目录：使用带一点点青色调的柔和浅灰，避免喧宾夺主 */
+body, p, span, .dg-fallback-index-intro,
+a, .nav-folder-title, .nav-file-title, .tree-item-inner {
+    color: #a8bec5 !important; 
 }
 
-/* 2. 强制点亮左侧目录里未选中的文件夹和笔记链接 */
-a, 
-.nav-folder-title,
-.nav-file-title,
-.tree-item-inner {
-    color: #cbd5e1 !important;
-}
-
-/* 3. 保证当前正在阅读的笔记标题和主标题是最亮的纯白，以示区分 */
+/* 2. 网站大标题、笔记标题和左侧当前选中的目录：换成护眼的青蓝色 */
 h1, h2, h3,
 .is-active,
 .nav-file-title.is-active,
 a:hover {
-    color: #ffffff !important;
+    color: #88c0d0 !important; /* 经典的护眼青蓝色 */
 }
