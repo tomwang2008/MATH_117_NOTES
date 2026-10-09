@@ -45,7 +45,7 @@
 >
 >Suppose all the entries on the [[Math/Linear Algebra Done Right/Diagonal of a Matrix\|diagonal]] on the upper-matrix are nonzero. Then, for every  $Tv_{j}=a_{0}+a_{1}v_{1}+\dots+a_{j}v_{j}$, we have  $Tv_{j}\not\in \text{span }(v_{1},\dots,v_{j-1})$. Thus, the list of vector $(Tv_{1},\dots,Tv_{n})$ are [[Math/Linear Algebra Done Right/Linear Independence\|linearly independent]]. So $T$ is [[Math/Linear Algebra Done Right/Surjectivity\|surjective]], which leads to invertible
 >
->Suppose $T$ is invertible, if some entries on the diagonal of the upper-matrix are zero. Then we have $Tv_{j}\in \text{span }(v_{1},\dots,v_{j-1})$. Thus, $(Tv_{1},\dots Tv_{j})$ is linearly independent and therefore $(Tv_1,\dots Tv_{n})$ is linearly independent. So $\text{dim span }(Tv_{1},\dots Tv_{n})<\text{dim }V$. This contradicts the condition that $T$ is invertible.
+>Suppose $T$ is invertible, if some entries on the diagonal of the upper-matrix are zero. Then we have $Tv_{j}\in \text{span }(v_{1},\dots,v_{j-1})$. Thus, $(Tv_{1},\dots Tv_{j})$ is linearly dependent and therefore $(Tv_1,\dots Tv_{n})$ is linearly dependent. So $\text{dim span }(Tv_{1},\dots Tv_{n})<\text{dim }V$. This contradicts the condition that $T$ is invertible.
 >
 >$\blacksquare$
 

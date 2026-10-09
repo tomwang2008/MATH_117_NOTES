@@ -20,12 +20,12 @@
  > $\blacksquare$
  > 
 
-> [!info]  Relation between closed and [[compac\|compact]]
+> [!info]  Relation between closed and [[Math/Principles of Mathematical Analysis/Compactness\|compact]]
 > Closed subsets of compact sets are compact.
 > 
 > Proof:
 > 
-> Let $K$ be a closed subset of a compact set $F$ and let ${G_{\alpha}}$ be a [[Math/Principles of Mathematical Analysis/Open Cover\|open cover]] that covers $K$. Consider the [[Math/Principles of Mathematical Analysis/Complement\|complement]] of $K$, as verified, $K^c \cup \{ G_{\alpha} \}$ is a open cover of $F$. Since $F$ is compact, $K^c\cup K_{\alpha_{1}}\cup\dots \cup K_{\alpha_{n}}$ covers $F$ with finitely many choices of $\alpha_{1},\dots,\alpha_{n}$. Therefore, $K\subset K^c\cup G_{\alpha_{1}}\cup\dots\cup G_{\alpha_{n}}$ and since $K\cap K^c=\emptyset$, we have $K\subset G_{\alpha_{1}}\cup\dots\cup G_{\alpha_{n}}$. 
+> Let $K$ be a closed subset of a compact set $F$ and let ${G_{\alpha}}$ be a [[Math/Principles of Mathematical Analysis/Open Cover\|open cover]] that covers $K$. Consider the [[Math/Principles of Mathematical Analysis/Complement\|complement]] of $K$, as verified, $K^c \cup \{ G_{\alpha} \}$ is a open cover of $F$. Since $F$ is compact, $K^c\cup G_{\alpha_{1}}\cup\dots \cup G_{\alpha_{n}}$ covers $F$ with finitely many choices of $\alpha_{1},\dots,\alpha_{n}$. Therefore, $K\subset K^c\cup G_{\alpha_{1}}\cup\dots\cup G_{\alpha_{n}}$ and since $K\cap K^c=\emptyset$, we have $K\subset G_{\alpha_{1}}\cup\dots\cup G_{\alpha_{n}}$. 
 > 
 > $\blacksquare$
 

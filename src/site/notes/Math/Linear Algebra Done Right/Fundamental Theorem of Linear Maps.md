@@ -14,18 +14,19 @@ The theorem is also known as the Rank-nullity Theorem.
 >
 >For any $T\in\mathcal{L}(V,W)$, let $v_1,\dots,v_n$ be a basis of $V$ and let $Tv_1,\dots,Tv_n=w_1,\dots,w_n$.
 >
->Now If $w_1,\dots,w_n$ is linearly independent, then $\dim \text{range}\ T =n$ and $\dim\text{null}\ T=0$ since the only way that $Tv=0$ is $v=0$ therefore we have $$\dim V=\dim\text{range}\ T+\dim\text{null} T$$
+>Now If $w_1,\dots,w_n$ is linearly independent, then $\dim \text{range}\ T =n$ since the the list $(w_{1},\dots,w_{n})$ is linearly independent, we have $\text{dim null }T=0$
+>$$\dim V=\dim\text{range}\ T+\dim\text{null } T$$
 >
->If $w_1,\dots,w_n$ is linearly dependent, we could pick out some vectors in $w_1,\dots,w_n$ and remain the span of the origin list. Let $w_1,\dots,w_r$ be the vectors we picked out and $w_{r+1},\dots,w_n$ be the remaining vectors. The remaining vectors are linearly independent, so $\dim\text{range}\ T=n-r$ 
+>If $w_1,\dots,w_n$ is linearly dependent, we could pick out some vectors in $w_1,\dots,w_n$ and remain the span of the original space. Let $w_1,\dots,w_r$ be the vectors we picked and $w_{r+1},\dots,w_n$ be the remaining vectors. The vectors we picked are linearly independent, so $\dim\text{range}\ T=r$ 
 >
->For $w_1,\dots,w_r$, since $Tv_j=w_j$ where $j=1,\dots,r$ every linear combination of $v_1,\dots,v_r$ corresponds to a situation when the linear combination of $w_1,\dots,w_n$ equals 0. Also for every $a_1w_1+\dots+a_nw_n=0$ we could always rewrite it into $a_1w_1+\dots+a_jw_j=-(a_{j+1}w_{j+1}+\dots+a_nw_n)$. Thus, for every situation when the linear combination of $w_1,\dots,w_n$ equals 0, it corresponds to a linear combination of $v_1,\dots,v_r$. Thus, the dimension of $\text{null} \ T$ equals $r$. 
- Therefore, 
- $$\dim V=\dim\text{range}\ T+\dim\text{null} T$$
+>Remark that $T(v_{i})=a_{i,1}w_{1}+\dots+a_{i,r}w_{r}$,where $i=1+r,\dots,n$. We have $v_{i}-\sum a_{i,j}v_{j}$ is a vector in the null space of $T$. Now we prove that the list $\left( v_{r+1}-\sum a_{r+1,j}v_{j},\dots,v_{n}-\sum a_{n,j}v_{j} \right)$ is linearly independent. This should be trivial since the the linear comnbination is formed by linearly independent vectors. Therefore,
+>
+ $$\dim V=\dim\text{range}\ T+\dim\text{null } T$$
  $\blacksquare$
  
  
  
- 
+
  
 
 

@@ -32,5 +32,5 @@ We could also expand this theorem to any k-cell where $k$ is any positive intege
 > Proof:
 > 
 > By the way of induction, we start at the case of $k=1$. We now prove that any closed interval is compact.
-
- 
+> 
+> 
